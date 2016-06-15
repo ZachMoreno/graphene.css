@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.container,
+.row,
+.column-12,
+.column-11,
+.column-10,
+.column-9,
+.column-8,
+.column-7,
+.column-6,
+.column-5,
+.column-4,
+.column-3,
+.column-2,
+.column-1 {
+    background-color: rgba(0, 189, 214, 0.10);
+}
+
+.column-12,
+.column-11,
+.column-10,
+.column-9,
+.column-8,
+.column-7,
+.column-6,
+.column-5,
+.column-4,
+.column-3,
+.column-2,
+.column-1 {
+    /*padding: 12px 0;*/
+}
