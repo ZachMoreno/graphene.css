@@ -6,8 +6,41 @@ html, body {
     font-family: 'Podkova', serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+#hero {
+    background-color: rgba(96, 125, 139, 1);
+    padding: 10vh 0;
+}
+
+#hero h1,
+a,
+a:hover,
+a:visited {
+    color: #a7ffeb;
+}
+
+#hero h3 {
+    color: #ECEFF1;
+}
+
+nav {
+    background-color: rgba(69, 90, 100, 1);
+}
+
+nav p {
+    margin: 1vh;
+}
+
+.example {
+    padding: 2vh 2vw;
+    background-color: #A7FFEB;
+}
+
 .example .row {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .example .row p {
@@ -21,9 +54,25 @@ h1,
 h2,
 h3,
 h4 {
-    color: rgba(69, 90, 100, 1);
-    text-align: center;
     font-weight: normal;
+    margin: 1vh 0;
+    color: #455a64;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+h2 {
+    font-size: 6vw;
+}
+
+h3 {
+    font-size: 4vw;
+}
+
+h4 {
+    font-size: 2vw;
 }
 
 .bold {
@@ -52,8 +101,4 @@ h4 {
 
 .grey-bg {
     background-color: #ECEFF1;
-}
-
-.teal-a100-bg {
-    background-color: #A7FFEB;
 }

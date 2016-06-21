@@ -11,22 +11,26 @@
     </head>
 
     <body>
-        <div class="container">
-            <h1>
-                graphene<br>
-                <small>breaking out of the grid</small>
-            </h1>
+        <div class="container grey-bg">
+            <nav class="row">
+                <div class="column-1 push-11">
+                    <p><a href="https://github.com/ZachMoreno/graphene" alt="GitHub Repo">GitHub</a></p>
+                </div> <!-- end .column-1 -->
+            </nav> <!-- end .row -->
+
+            <div class="row" id="hero">
+                <div class="column-8 push-1">
+                    <h1>graphene</h1>
+                    <h3>breaking out of the grid</h3>
+                </div> <!-- end .column-8 -->
+            </div> <!-- end #hero -->
 
             <div class="row">
                 <div class="column-12">
                     <div class="row">
-                        <div class="column-1 teal-a100-bg">
-                            <p></p>
-                        </div> <!-- end .column-1 -->
-
-                        <div class="column-3 grey-bg">
-                            <h3 class="bold">the grid</h3>
-                            <h4>like tron</h4>
+                        <div class="column-3 push-1">
+                            <h3>the grid</h3>
+                            <p>width: calc(100% / 12 * X);</p>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
@@ -208,14 +212,11 @@
 
 
                     <div class="row">
-                        <div class="column-1 teal-a100-bg">
-                            <p></p>
-                        </div> <!-- end .column-1 -->
+                        <div class="column-3 push-1">
+                            <h3>gutters</h3>
 
-                        <div class="column-3 grey-bg">
-                            <h3 class="bold">gutters</h3>
-
-                            <h4>2 %</h4>
+                            <p>width: calc(98% / 12 * X);<br>
+                                margin-left: 2%;</p>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
@@ -397,24 +398,50 @@
 
 
                     <div class="row">
-                        <div class="column-1 teal-a100-bg">
-                            <p></p>
-                        </div> <!-- end .column-1 -->
-
-                        <div class="column-3 grey-bg">
-                            <h3 class="bold">breaks</h3>
-                            <h4>left &amp; right</h4>
+                        <div class="column-3 push-1">
+                            <h3>breaks</h3>
+                            <p>margin-left: calc(100% / 12 * -X);</p>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
                             <div class="row">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
+                                <div class="column-2">
+                                    <p>.column-2</p>
+                                </div> <!-- end .column-2 -->
 
-                                <div class="column-6 break-left-1">
-                                    <p>.break-left-1</p>
-                                </div> <!-- end .column-6 -->
+                                <div class="column-2 break-1">
+                                    <p>.break-1</p>
+                                </div> <!-- end .column-2 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-3">
+                                    <p>.column-3</p>
+                                </div> <!-- end .column-3 -->
+
+                                <div class="column-3 break-2">
+                                    <p>.break-2</p>
+                                </div> <!-- end .column-3 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-4">
+                                    <p>.column-4</p>
+                                </div> <!-- end .column-4 -->
+
+                                <div class="column-4 break-3">
+                                    <p>.break-3</p>
+                                </div> <!-- end .column-4 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-5">
+                                    <p>.column-5</p>
+                                </div> <!-- end .column-5 -->
+
+                                <div class="column-5 break-4">
+                                    <p>.break-4</p>
+                                </div> <!-- end .column-5 -->
                             </div> <!-- end .row -->
 
                             <div class="row">
@@ -422,109 +449,134 @@
                                     <p>.column-6</p>
                                 </div> <!-- end .column-6 -->
 
-                                <div class="column-6 break-left-2">
-                                    <p>.break-left-2</p>
+                                <div class="column-6 break-5">
+                                    <p>.break-5</p>
                                 </div> <!-- end .column-6 -->
                             </div> <!-- end .row -->
 
                             <div class="row">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
+                                <div class="column-7">
+                                    <p>.column-7</p>
+                                </div> <!-- end .column-7 -->
 
-                                <div class="column-6 break-left-3">
-                                    <p>.break-left-3</p>
+                                <div class="column-7 break-6">
+                                    <p>.break-6</p>
+                                </div> <!-- end .column-7 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-8">
+                                    <p>.column-8</p>
+                                </div> <!-- end .column-8 -->
+
+                                <div class="column-8 break-7">
+                                    <p>.break-7</p>
+                                </div> <!-- end .column-8 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-9">
+                                    <p>.column-9</p>
+                                </div> <!-- end .column-9 -->
+
+                                <div class="column-9 break-8">
+                                    <p>.break-8</p>
+                                </div> <!-- end .column-9 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-10">
+                                    <p>.column-10</p>
+                                </div> <!-- end .column-10 -->
+
+                                <div class="column-10 break-9">
+                                    <p>.break-9</p>
+                                </div> <!-- end .column-10 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-11">
+                                    <p>.column-11</p>
+                                </div> <!-- end .column-11 -->
+
+                                <div class="column-11 break-10">
+                                    <p>.break-10</p>
+                                </div> <!-- end .column-11 -->
+                            </div> <!-- end .row -->
+                        </div> <!-- end .column-8 -->
+                    </div> <!-- end .row -->
+
+                    <div class="row">
+                        <div class="column-3 push-1">
+                            <h3>push</h3>
+                            <p>margin-left: calc(100% / 12 * X);</p>
+                        </div> <!-- end .column-3 -->
+
+                        <div class="column-8 example">
+                            <div class="row">
+                                <div class="column-11 push-1">
+                                    <p>.push-1</p>
+                                </div> <!-- end .column-11 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-10 push-2">
+                                    <p>.push-2</p>
+                                </div> <!-- end .column-10 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-9 push-3">
+                                    <p>.push-3</p>
+                                </div> <!-- end .column-9 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-8 push-4">
+                                    <p>.push-4</p>
+                                </div> <!-- end .column-8 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-7 push-5">
+                                    <p>.push-5</p>
+                                </div> <!-- end .column-7 -->
+                            </div> <!-- end .row -->
+
+                            <div class="row">
+                                <div class="column-6 push-6">
+                                    <p>.push-6</p>
                                 </div> <!-- end .column-6 -->
                             </div> <!-- end .row -->
 
                             <div class="row">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-left-4">
-                                    <p>.break-left-4</p>
-                                </div> <!-- end .column-6 -->
+                                <div class="column-5 push-7">
+                                    <p>.push-7</p>
+                                </div> <!-- end .column-5 -->
                             </div> <!-- end .row -->
 
                             <div class="row">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-left-5">
-                                    <p>.break-left-5</p>
-                                </div> <!-- end .column-6 -->
+                                <div class="column-4 push-8">
+                                    <p>.push-8</p>
+                                </div> <!-- end .column-4 -->
                             </div> <!-- end .row -->
 
                             <div class="row">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-left-6">
-                                    <p>.break-left-6</p>
-                                </div> <!-- end .column-6 -->
+                                <div class="column-3 push-9">
+                                    <p>.push-9</p>
+                                </div> <!-- end .column-3 -->
                             </div> <!-- end .row -->
 
-                            <div class="row float-right">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-right-1">
-                                    <p>.break-right-1</p>
-                                </div> <!-- end .column-6 -->
+                            <div class="row">
+                                <div class="column-2 push-10">
+                                    <p>.push-10</p>
+                                </div> <!-- end .column-2 -->
                             </div> <!-- end .row -->
 
-                            <div class="row float-right">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-right-2">
-                                    <p>.break-right-2</p>
-                                </div> <!-- end .column-6 -->
-                            </div> <!-- end .row -->
-
-                            <div class="row float-right">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-right-3">
-                                    <p>.break-right-3</p>
-                                </div> <!-- end .column-6 -->
-                            </div> <!-- end .row -->
-
-                            <div class="row float-right">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-right-4">
-                                    <p>.break-right-4</p>
-                                </div> <!-- end .column-6 -->
-                            </div> <!-- end .row -->
-
-                            <div class="row float-right">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-right-5">
-                                    <p>.break-right-5</p>
-                                </div> <!-- end .column-6 -->
-                            </div> <!-- end .row -->
-
-                            <div class="row float-right">
-                                <div class="column-6">
-                                    <p>.column-6</p>
-                                </div> <!-- end .column-6 -->
-
-                                <div class="column-6 break-right-6">
-                                    <p>.break-right-6</p>
-                                </div> <!-- end .column-6 -->
+                            <div class="row">
+                                <div class="column-1 push-11">
+                                    <p>.push-11</p>
+                                </div> <!-- end .column-1 -->
                             </div> <!-- end .row -->
                         </div> <!-- end .column-8 -->
                     </div> <!-- end .row -->
