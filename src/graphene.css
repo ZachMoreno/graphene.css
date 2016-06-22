@@ -17,6 +17,7 @@
 [class*='column-'] {
     clear: right;
     float: left;
+    overflow: hidden;
 }
 
 .float-right [class*='column-'] {

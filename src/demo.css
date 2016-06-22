@@ -65,7 +65,8 @@ h4 {
 
 code {
     display: block;
-    padding: 3.1vh 0;
+    color: #607d8b;
+    padding: 2.1vh 0;
     font-size: 1.1vw;
     font-family: 'Source Code Pro', monospace;
 }

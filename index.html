@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>graphene</title>
+        <title>graphene.css</title>
 
         <link href="https://fonts.googleapis.com/css?family=Podkova:400,700|Source+Code+Pro:400,700" rel="stylesheet">
 
@@ -20,8 +20,8 @@
 
             <div class="row" id="hero">
                 <div class="column-8 push-1">
-                    <h1>graphene</h1>
-                    <h3>breaking out of the grid</h3>
+                    <h1>graphene.css</h1>
+                    <h3><strong>break out</strong> of the grid</h3>
                 </div> <!-- end .column-8 -->
             </div> <!-- end #hero -->
 
@@ -29,10 +29,11 @@
                 <div class="column-12">
                     <div class="row">
                         <div class="column-3 push-1">
-                            <h3>container</h3>
+                            <h3>.container {</h3>
                             <code>
                                 <span class="bold">display</span>: block;
                             </code>
+                            <h3>}</h3>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
@@ -44,10 +45,11 @@
 
                     <div class="row">
                         <div class="column-3 push-1">
-                            <h3>rows</h3>
+                            <h3>.row {</h3>
                             <code>
                                 <span class="bold">display</span>: flex;
                             </code>
+                            <h3>}</h3>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
@@ -63,21 +65,14 @@
 
                     <div class="row">
                         <div class="column-3 push-1">
-                            <h3>columns</h3>
+                            <h3>.column-* {</h3>
                             <code><span class="bold">width</span>: calc(100% / 12 * X);</code>
+                            <h3>}</h3>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
                             <div class="container">
                                 <p>.container</p>
-
-                                <div class="row block">
-                                    <p>.row</p>
-
-                                    <div class="column-12">
-                                        <p>.column-12</p>
-                                    </div> <!-- end .column-12 -->
-                                </div> <!-- end .row -->
 
                                 <div class="row block">
                                     <p>.row</p>
@@ -266,6 +261,14 @@
                                         <p>.column-1</p>
                                     </div> <!-- end .column-1 -->
                                 </div> <!-- end .row -->
+
+                                <div class="row block">
+                                    <p>.row</p>
+
+                                    <div class="column-12">
+                                        <p>.column-12</p>
+                                    </div> <!-- end .column-12 -->
+                                </div> <!-- end .row -->
                             </div> <!-- end .container -->
                         </div> <!-- end .column-8 -->
                     </div> <!-- end .row -->
@@ -274,20 +277,16 @@
 
                     <div class="row">
                         <div class="column-3 push-1">
-                            <h3>gutters</h3>
+                            <h3>.row<br>.gutters {</h3>
 
                             <code><span class="bold">width</span>: calc(98% / 12 * X);<br>
                                 <span class="bold">margin-left</span>: 2%;</code>
+
+                            <h3>}</h3>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
                             <div class="container">
-                                <div class="row gutters">
-                                    <div class="column-12">
-                                        <p>.column-12</p>
-                                    </div> <!-- end .column-12 -->
-                                </div> <!-- end .row -->
-
                                 <div class="row gutters">
                                     <div class="column-1">
                                         <p>.column-1</p>
@@ -455,6 +454,12 @@
                                         <p>.column-1</p>
                                     </div> <!-- end .column-1 -->
                                 </div> <!-- end .row -->
+
+                                <div class="row gutters">
+                                    <div class="column-12">
+                                        <p>.column-12</p>
+                                    </div> <!-- end .column-12 -->
+                                </div> <!-- end .row -->
                             </div> <!-- end .container -->
                         </div> <!-- end .column-8 -->
                     </div> <!-- end .row -->
@@ -462,8 +467,10 @@
 
                     <div class="row">
                         <div class="column-3 push-1">
-                            <h3>breaks</h3>
+                            <h3>.column-*<br>
+                                .break-* {</h3>
                             <code><span class="bold">margin-left</span>: calc(100% / 12 * -X);</code>
+                            <h3>}</h3>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
@@ -573,8 +580,10 @@
 
                     <div class="row">
                         <div class="column-3 push-1">
-                            <h3>push</h3>
+                            <h3>.column-*<br>
+                                .push-* {</h3>
                             <code><span class="bold">margin-left</span>: calc(100% / 12 * X);</code>
+                            <h3>}</h3>
                         </div> <!-- end .column-3 -->
 
                         <div class="column-8 example">
@@ -651,4 +660,8 @@
             </div> <!-- end .row -->
         </div> <!-- end .container -->
     </body>
+
+    <script type="text/javascript" src="src/demo.js">
+
+    </script>
 </html>
