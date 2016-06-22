@@ -34,22 +34,6 @@ nav p {
     margin: 1vh;
 }
 
-.example {
-    padding: 2vh 2vw;
-    background-color: #A7FFEB;
-}
-
-.example .row {
-    margin-bottom: 2vh;
-}
-
-.example .row p {
-    color: white;
-    text-align: center;
-    font-size: 11px;
-    font-family: sans-serif;
-}
-
 h1,
 h2,
 h3,
@@ -79,8 +63,60 @@ h4 {
     font-weight: bold;
 }
 
-.example [class*='column-'] {
+code {
+    display: block;
+    padding: 3.1vh 0;
+    font-size: 1.1vw;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.example {
+    padding: 2vh 2vw;
+    background-color: #A7FFEB;
+}
+
+.example .row {
+    margin-bottom: 2vh;
+    background-color: rgba(176, 190, 197, 0.6);
+}
+
+.example .row:hover {
+    margin-bottom: 2vh;
+    background-color: rgba(176, 190, 197, 1);
+}
+
+.example p {
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Source Code Pro';
+}
+
+.example .row [class*='column-'] p {
+    color: white;
+}
+
+.example .container {
+    background-color: rgba(207, 216, 220, 0.6);
+    padding: 0.01em 0;
+}
+
+.example .container:hover {
+    background-color: rgba(207, 216, 220, 1);
+}
+
+.example .container p,
+.example .row p {
+    color: rgba(96, 125, 139, 1);
+}
+
+.example [class*='column-'],
+.example .container,
+.example .row {
     transition: 0.3s all ease-in-out;
+}
+
+.block {
+    display: block;
 }
 
 .example [class*='column-']:nth-of-type(odd) {
