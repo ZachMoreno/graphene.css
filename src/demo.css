@@ -139,3 +139,19 @@ code {
 .grey-bg {
     background-color: #ECEFF1;
 }
+
+button {
+    background-color: rgba(167,255,235,0.6);
+    padding: 1vh 2.5vw;
+    color: #455a64;
+    border: none;
+    font-size: 1.6vw;
+    margin-top: 7vh;
+    font-family: 'Source Code Pro';
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(167,255,235,1);
+}
