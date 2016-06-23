@@ -92,7 +92,7 @@ code {
     font-family: 'Source Code Pro';
 }
 
-.example .row [class*='column-'] p {
+.example .row [class*='col-'] p {
     color: white;
 }
 
@@ -110,7 +110,7 @@ code {
     color: rgba(96, 125, 139, 1);
 }
 
-.example [class*='column-'],
+.example [class*='col-'],
 .example .container,
 .example .row {
     transition: 0.3s all ease-in-out;
@@ -120,19 +120,19 @@ code {
     display: block;
 }
 
-.example [class*='column-']:nth-of-type(odd) {
+.example [class*='col-']:nth-of-type(odd) {
     background-color: rgba(96, 125, 139, 0.6);
 }
 
-.example [class*='column-']:nth-of-type(odd):hover {
+.example [class*='col-']:nth-of-type(odd):hover {
     background-color: rgba(96, 125, 139, 1);
 }
 
-.example [class*='column-']:nth-of-type(2n) {
+.example [class*='col-']:nth-of-type(2n) {
     background-color: rgba(69, 90, 100, 0.6);
 }
 
-.example [class*='column-']:nth-of-type(2n):hover {
+.example [class*='col-']:nth-of-type(2n):hover {
     background-color: rgba(69, 90, 100, 1);
 }
 

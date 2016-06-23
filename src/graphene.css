@@ -14,22 +14,22 @@
     overflow: hidden;
 }
 
-[class*='column-'] {
+[class*='col-'] {
     clear: right;
     float: left;
     overflow: hidden;
 }
 
-.float-right [class*='column-'] {
+.float-right [class*='col-'] {
     clear: left;
     float: right;
 }
 
-.gutters [class*='column-'] {
+.gutters [class*='col-'] {
     margin-left: 2%;
 }
 
-.gutters [class*='column-']:first-child {
+.gutters [class*='col-']:first-child {
     margin-left: 0;
 }
 
@@ -37,11 +37,11 @@
         1
 =================================== */
 
-.column-1 {
+.col-1 {
   width: calc(100% / 12 * 1);
 }
 
-.gutters .column-1 {
+.gutters .col-1 {
   width: calc(98% / 12 * 1);
 }
 
@@ -57,11 +57,11 @@
         2
 =================================== */
 
-.column-2 {
+.col-2 {
   width: calc(100% / 12 * 2);
 }
 
-.gutters .column-2 {
+.gutters .col-2 {
   width: calc(98% / 12 * 2);
 }
 
@@ -77,11 +77,11 @@
         3
 =================================== */
 
-.column-3 {
+.col-3 {
   width: calc(100% / 12 * 3);
 }
 
-.gutters .column-3 {
+.gutters .col-3 {
   width: calc(98% / 12 * 3);
 }
 
@@ -97,11 +97,11 @@
         4
 =================================== */
 
-.column-4 {
+.col-4 {
   width: calc(100% / 12 * 4);
 }
 
-.gutters .column-4 {
+.gutters .col-4 {
   width: calc(98% / 12 * 4);
 }
 
@@ -117,11 +117,11 @@
         5
 =================================== */
 
-.column-5 {
+.col-5 {
   width: calc(100% / 12 * 5);
 }
 
-.gutters .column-5 {
+.gutters .col-5 {
   width: calc(98% / 12 * 5);
 }
 
@@ -137,11 +137,11 @@
         6
 =================================== */
 
-.column-6 {
+.col-6 {
   width: calc(100% / 12 * 6);
 }
 
-.gutters .column-6 {
+.gutters .col-6 {
   width: calc(98% / 12 * 6);
 }
 
@@ -157,11 +157,11 @@
         7
 =================================== */
 
-.column-7 {
+.col-7 {
   width: calc(100% / 12 * 7);
 }
 
-.gutters .column-7 {
+.gutters .col-7 {
   width: calc(98% / 12 * 7);
 }
 
@@ -177,11 +177,11 @@
         8
 =================================== */
 
-.column-8 {
+.col-8 {
   width: calc(100% / 12 * 8);
 }
 
-.gutters .column-8 {
+.gutters .col-8 {
   width: calc(98% / 12 * 8);
 }
 
@@ -197,11 +197,11 @@
         9
 =================================== */
 
-.column-9 {
+.col-9 {
   width: calc(100% / 12 * 9);
 }
 
-.gutters .column-9 {
+.gutters .col-9 {
   width: calc(98% / 12 * 9);
 }
 
@@ -217,11 +217,11 @@
         10
 =================================== */
 
-.column-10 {
+.col-10 {
   width: calc(100% / 12 * 10);
 }
 
-.gutters .column-10 {
+.gutters .col-10 {
   width: calc(98% / 12 * 10);
 }
 
@@ -237,11 +237,11 @@
         11
 =================================== */
 
-.column-11 {
+.col-11 {
   width: calc(100% / 12 * 11);
 }
 
-.gutters .column-11 {
+.gutters .col-11 {
   width: calc(98% / 12 * 11);
 }
 
@@ -257,8 +257,8 @@
         12
 =================================== */
 
-.column-12,
-.gutters .column-12 {
+.col-12,
+.gutters .col-12 {
   width: calc(100% / 12 * 12);
 }
 
