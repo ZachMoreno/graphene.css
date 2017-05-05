@@ -1,0 +1,26 @@
+{
+  "name": "graphene.css",
+  "version": "1.0.0",
+  "description": "A grid system for breaking out of the grid",
+  "main": "src/graphene.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZachMoreno/graphene.css.git"
+  },
+  "keywords": [
+    "grid system",
+    "material design"
+  ],
+  "author": "Zachariah Moreno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZachMoreno/graphene.css/issues"
+  },
+  "homepage": "https://zachmoreno.github.io/graphene.css/"
+}

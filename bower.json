@@ -1,0 +1,21 @@
+{
+  "name": "graphene.css",
+  "homepage": "https://zachmoreno.github.io/graphene.css/",
+  "authors": [
+    "Zachariah Moreno <xachmoreno@gmail.com>"
+  ],
+  "description": "A grid system for breaking out of the grid",
+  "main": "src/graphene.css",
+  "keywords": [
+    "grid system",
+    "material design"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
