@@ -2,10 +2,12 @@
 
 break out of the grid
 
+[DEMO](https://zachmoreno.github.io/graphene.css/)
+
 ## Install
 
     npm install graphene.css
-    
+
 or
 
     bower install graphene.css
