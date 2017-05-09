@@ -90,6 +90,8 @@ code {
     text-align: center;
     font-size: 11px;
     font-family: 'Source Code Pro';
+    margin: 0;
+    padding: 10px 0;
 }
 
 .example .row [class*='col-'] p {
@@ -110,9 +112,11 @@ code {
     color: rgba(96, 125, 139, 1);
 }
 
-.example [class*='col-'],
 .example .container,
-.example .row {
+.example .row,
+.example [class*='col-'],
+.example [class*='hi-'],
+button {
     transition: 0.3s all ease-in-out;
 }
 
@@ -136,6 +140,22 @@ code {
     background-color: rgba(69, 90, 100, 1);
 }
 
+.example [class*='hi-']:nth-of-type(odd) {
+    background-color: rgba(96, 125, 139, 0.6);
+}
+
+.example [class*='hi-']:nth-of-type(odd):hover {
+    background-color: rgba(96, 125, 139, 1);
+}
+
+.example [class*='hi-']:nth-of-type(2n) {
+    background-color: rgba(69, 90, 100, 0.6);
+}
+
+.example [class*='hi-']:nth-of-type(2n):hover {
+    background-color: rgba(69, 90, 100, 1);
+}
+
 .grey-bg {
     background-color: #ECEFF1;
 }
@@ -149,7 +169,6 @@ button {
     margin-top: 7vh;
     font-family: 'Source Code Pro';
     cursor: pointer;
-    transition: 0.3s all ease-in-out;
 }
 
 button:hover {
