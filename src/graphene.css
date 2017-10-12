@@ -38,11 +38,11 @@
 =================================== */
 
 .col-1 {
-  width: calc(100% / 12 * 1);
+    width: calc(100% / 12 * 1);
 }
 
 .gutters .col-1 {
-  width: calc(98% / 12 * 1);
+    width: calc(98% / 12 * 1);
 }
 
 [class*='col-'].push-1 {
@@ -66,11 +66,11 @@
 =================================== */
 
 .col-2 {
-  width: calc(100% / 12 * 2);
+    width: calc(100% / 12 * 2);
 }
 
 .gutters .col-2 {
-  width: calc(98% / 12 * 2);
+    width: calc(98% / 12 * 2);
 }
 
 [class*='col-'].push-2 {
@@ -94,11 +94,11 @@
 =================================== */
 
 .col-3 {
-  width: calc(100% / 12 * 3);
+    width: calc(100% / 12 * 3);
 }
 
 .gutters .col-3 {
-  width: calc(98% / 12 * 3);
+    width: calc(98% / 12 * 3);
 }
 
 [class*='col-'].push-3 {
@@ -122,11 +122,11 @@
 =================================== */
 
 .col-4 {
-  width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4);
 }
 
 .gutters .col-4 {
-  width: calc(98% / 12 * 4);
+    width: calc(98% / 12 * 4);
 }
 
 [class*='col-'].push-4 {
@@ -150,11 +150,11 @@
 =================================== */
 
 .col-5 {
-  width: calc(100% / 12 * 5);
+    width: calc(100% / 12 * 5);
 }
 
 .gutters .col-5 {
-  width: calc(98% / 12 * 5);
+    width: calc(98% / 12 * 5);
 }
 
 [class*='col-'].push-5 {
@@ -178,11 +178,11 @@
 =================================== */
 
 .col-6 {
-  width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 6);
 }
 
 .gutters .col-6 {
-  width: calc(98% / 12 * 6);
+    width: calc(98% / 12 * 6);
 }
 
 [class*='col-'].push-6 {
@@ -206,11 +206,11 @@
 =================================== */
 
 .col-7 {
-  width: calc(100% / 12 * 7);
+    width: calc(100% / 12 * 7);
 }
 
 .gutters .col-7 {
-  width: calc(98% / 12 * 7);
+    width: calc(98% / 12 * 7);
 }
 
 [class*='col-'].push-7 {
@@ -234,11 +234,11 @@
 =================================== */
 
 .col-8 {
-  width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8);
 }
 
 .gutters .col-8 {
-  width: calc(98% / 12 * 8);
+    width: calc(98% / 12 * 8);
 }
 
 [class*='col-'].push-8 {
@@ -262,11 +262,11 @@
 =================================== */
 
 .col-9 {
-  width: calc(100% / 12 * 9);
+    width: calc(100% / 12 * 9);
 }
 
 .gutters .col-9 {
-  width: calc(98% / 12 * 9);
+    width: calc(98% / 12 * 9);
 }
 
 [class*='col-'].push-9 {
@@ -290,11 +290,11 @@
 =================================== */
 
 .col-10 {
-  width: calc(100% / 12 * 10);
+    width: calc(100% / 12 * 10);
 }
 
 .gutters .col-10 {
-  width: calc(98% / 12 * 10);
+    width: calc(98% / 12 * 10);
 }
 
 [class*='col-'].push-10 {
@@ -318,7 +318,7 @@
 =================================== */
 
 .col-11 {
-  width: calc(100% / 12 * 11);
+    width: calc(100% / 12 * 11);
 }
 
 .gutters .col-11 {
@@ -347,7 +347,7 @@
 
 .col-12,
 .gutters .col-12 {
-  width: calc(100% / 12 * 12);
+    width: calc(100% / 12 * 12);
 }
 
 [class*='col-'].push-12 {
